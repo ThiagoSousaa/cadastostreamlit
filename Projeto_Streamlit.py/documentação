@@ -1,0 +1,23 @@
+### DOCUMENTO ADD PARA ESPECIFICAR OQUE FOI REALIZADO NESSE PROJETO
+
+PROGRAMA BÁSICO DESENVOLVIDO EM PYTHON COM A BLIBIOTECA STREAMLIT
+
+== OBJETIVO DO PROJETO ==
+- CRIAR EM POUCAS LINHAS DE CÓDIGO, UM PROGRAMA DE CADASTRO DE CLIENTES 
+- PÓS O CADASTRO DO USUÁRIO, CRIA UM ARQUIVO CSV, POR ORDEM DE LINHAS E COLUNAS
+
+== ALGORTIMO ==
+
+- IMPORTANDO BIBLIOTECA streamlit
+ - Criando titulo e váriaveis nome, endereço e data cliente para o preenchimento do cadastro
+  - Adicionando bloco de seleção (PESSOA FISICA E JURIDICA)
+   - Criando variável para armazenar um botão de cadastrar
+    - Criando a função de cadastro, se o usuário selecionar botão 'cadastrar cliente' - Criar e abrir um arquivo csv com
+    ordem de arquivo, separando nome, endereço e data.
+      - Finalizando com st.sucess como indicativo de cadastro realizado.
+
+# TESTANDO O PROGRAMA
+- INSTALE O STREAMLIT NA IDE OU NO PRÓPRIO CMD - pip install streamlit
+ - COPIE E COLE O CODIGO EM ALGUMA IDE (RECOMENDO - VSCODE)
+  - ABRA UM NOVO TERMINAL
+   - DIGITE A SEGUINTE LINHA DE CODIGO - streamlit run .\app.py (SE NÃO FUNCIONAR TROQUE O NOME DO PROJETO)
